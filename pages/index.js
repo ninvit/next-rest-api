@@ -1,22 +1,20 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
         <title>NEXT ATC</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
 
       <main>
-        <h1 className="title">
-          Welcome to <a href="/tfr">ATC SYSTEMS!</a>
-        </h1>
+            <img src="logo.png" className="title"/>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
+          <a href="/tfr" className="card">
             <h3>TFRs &rarr;</h3>
-            <p>Formulário TFR</p>
+            <p>Technical Field Report</p>
           </a>
 
           <a href="https://nextjs.org/learn" className="card">
@@ -37,9 +35,7 @@ export default function Home() {
             className="card"
           >
             <h3>Diárias &rarr;</h3>
-            <p>
-              Controle diárias
-            </p>
+            <p>Controle diárias</p>
           </a>
         </div>
       </main>
@@ -63,9 +59,7 @@ export default function Home() {
           justify-content: center;
           align-items: center;
         }
-
         main {
-          padding: 5rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
@@ -140,7 +134,7 @@ export default function Home() {
           flex-wrap: wrap;
 
           max-width: 800px;
-          margin-top: 3rem;
+          margin-top: 0.2rem;
         }
 
         .card {
@@ -200,5 +194,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
