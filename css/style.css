@@ -14,7 +14,13 @@ h1 {
     background: #008cba;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;;
+}
+
+.logo {
+    width: 50px;
+    height: 25px;
+    margin-right: 10px;
 }
 
 .navbar .create {
@@ -25,6 +31,7 @@ h1 {
 .navbar .navbar-brand {
     color: #fff;
     font-size: 2rem;
+    margin-right: 10px;
 }
 
 .navbar-brand:hover, .create:hover {
