@@ -39,7 +39,7 @@ const NewTfr = () => {
 
   const createTfr = async () => {
     try {
-      const res = await fetch("http://localhost:3000/api/tfrs", {
+      const res = await fetch("/api/tfrs", {
         method: "POST",
         headers: {
           Accept: "application/json",
